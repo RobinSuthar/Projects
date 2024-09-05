@@ -1,0 +1,75 @@
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.Heading{
+    font-size: x-large;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+
+}
+  
+.x1{
+  margin-top: 50px;
+}
+
+.Projects {
+  margin-top: 100px;
+}
+
+.navbar-dark{
+  background-color: blue;
+}
+
+.offcanvas-end{
+  background-color: blue !important;
+}
+
+.offcanvas-title{
+  color: white;
+}
+
+
+@media (max-width:900px) {
+  .x1{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    margin: 20px 20px 30px 30px;
+  }
+
+  .card{
+    display: flex;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
